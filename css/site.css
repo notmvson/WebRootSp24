@@ -1,10 +1,14 @@
-
-
 body {
+    padding-top: 20px;
     margin: 50px;
     font-family: sans-serif;
     font-size: 150%;
     background-color: #6f8090;
+}
+
+.container-fluid {
+    margin: 10px;
+    padding: 10px;
 }
 
 p {
@@ -27,4 +31,17 @@ a {
 
 #hobbies {
     color: #90ee90;
+}
+
+#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
 }
