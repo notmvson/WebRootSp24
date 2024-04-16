@@ -33,7 +33,8 @@ section {
     color: #90ee90;
     position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
     margin: 0 auto;
     margin-bottom: 1rem;
     padding: 10px;
