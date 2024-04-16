@@ -7,8 +7,14 @@ body {
 }
 
 .container-fluid {
+    display: flex;
+    flex-wrap: wrap;
     margin: 10px;
     padding: 10px;
+}
+
+.col {
+    flex: 1;
 }
 
 p {
@@ -31,6 +37,10 @@ a {
 
 #hobbies {
     color: #90ee90;
+}
+
+.row-fluid {
+    display: flex;
 }
 
 #nav {
